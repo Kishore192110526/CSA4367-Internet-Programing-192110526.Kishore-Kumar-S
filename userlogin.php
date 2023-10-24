@@ -1,0 +1,25 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $userid = $_POST['userid'];
+    $password = $_POST['password'];
+
+    $servername = "localhost";
+    $username = "root";
+    $db_password = "";
+    $database = "userlogin";
+
+    $con = mysqli_connect($servername, $username, $db_password, $database);
+
+    $sql = "INSERT INTO `form` (`username`, `password`) VALUES ('$userid', '$password')";
+
+    $result = mysqli_query($con, $sql);
+
+    if ($result) {
+        // Registration successful, redirect to an HTML page
+        header('Location: http://localhost/project1/Afterlogin.html');
+        exit; // Make sure to exit to prevent further code execution
+    } else {
+        echo "Registration failed";
+    }
+}
+?>
