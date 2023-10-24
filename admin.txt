@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #235a9f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, Administrator</h1>
+    
+    <h2>Options:</h2>
+    
+    <h3>Generate ID & Password for Officer:</h3>
+    <button onclick="generateOfficerCredentials()">Generate Officer Credentials</button>
+
+    <h3>Create/Delete an Account:</h3>
+    <button onclick="createAccount()">Create Account</button>
+    <button onclick="deleteAccount()">Delete Account</button>
+    
+    <h3>View Accounts:</h3>
+    <button onclick="viewAccounts()">View Accounts</button>
+    
+    <h3>Change Password:</h3>
+    <button onclick="changePassword()">Change Password</button>
+    
+    <h3>Hide Features:</h3>
+    <button onclick="hideFeatures()">Hide Features</button>
+
+    <h3>Insert Information:</h3>
+    <button onclick="insertInformation()">Insert Information</button>
+
+    <h3>Access All Accounts:</h3>
+    <button onclick="accessAllAccounts()">Access All Accounts</button>
+    
+    <script>
+        function generateOfficerCredentials() {
+            alert("Simulated: Generating Officer Credentials");
+        }
+
+        function createAccount() {
+            alert("Simulated: Creating Account");
+        }
+
+        function deleteAccount() {
+            alert("Simulated: Deleting Account");
+        }
+
+        function viewAccounts() {
+            alert("Simulated: Viewing Accounts");
+        }
+
+        function changePassword() {
+            alert("Simulated: Changing Password");
+        }
+
+        function hideFeatures() {
+            alert("Simulated: Hiding Features");
+        }
+
+        function insertInformation() {
+            alert("Simulated: Inserting Information");
+        }
+
+        function accessAllAccounts() {
+            alert("Simulated: Accessing All Accounts");
+        }
+    </script>
+</body>
+</html>

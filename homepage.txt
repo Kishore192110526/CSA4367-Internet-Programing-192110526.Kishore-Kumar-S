@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Online Complaint System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #ff6600;
+        }
+        p {
+            font-size: 20px;
+            margin: 10px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 2px solid #A52A2A;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <img src="your-image.png" alt="Logo" style="position: absolute; top: 10px; left: 10px; width: 100px; height: auto;">
+    <h1>Online Complaint System</h1>
+    <hr>
+    <p>Welcome to the official Tamilnadu Government complaint registration portal</p>
+    <p>Register your complaint here</p>
+    <p>
+        <a class="admin" href="C:/Users/kisho/Desktop/internet%20programing/admin.html" style="background-color: #0099cc;">Admin</a>
+        <a class="user" href="C:/Users/kisho/Desktop/internet%20programing/userlogin.html" style="background-color: #ff6600;">User</a>
+        <a class="officer" href="C:/Users/kisho/Desktop/internet%20programing/officer%20page.html" style="background-color: #33cc33;">Officer</a>
+    </p>
+</body>
+</html>

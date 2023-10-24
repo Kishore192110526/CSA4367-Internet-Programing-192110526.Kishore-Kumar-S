@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        h1 {
+            color: #0099cc;
+        }
+        p a {
+            text-decoration: none;
+            color: #0099cc;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, User</h1>
+    <p>
+        <a href="C:/Users/kisho/Desktop/internet%20programing/postcomplaint.html">Post Complaint</a> |
+        <a href="C:/Users/kisho/Desktop/internet%20programing/viewcomplaint.html">View Complaint Status</a> |
+        <a href="C:/Users/kisho/Desktop/internet%20programing/feedback.html">Feedback</a> |
+        <a href="user-admin-contact.html">Get Admin Contact Details</a>
+    </p>
+</body>
+</html>

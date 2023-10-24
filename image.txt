@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Website</title>
+    <style>
+        /* Define styles for text color */
+        .heading {
+            color: #0099cc; /* Blue color */
+        }
+
+        .description {
+            color: #ff6600; /* Orange color */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Welcome to My Website</h1>
+    <p class="description">This is a simple and stylish homepage.</p>
+
+    <!-- Add images -->
+    <img src="image1.jpg" alt="Image 1" width="200">
+    <img src="image2.jpg" alt="Image 2" width="200">
+    <img src="image3.jpg" alt="Image 3" width="200">
+</body>
+</html>
